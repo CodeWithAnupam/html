@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Smokum&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+font-size: 18px;  
+  font-weight: 400;
+  font-family: 'Merriweather', serif;
+  background-image: url("./pic/bgc.jpg");
+}
+
+.alfa {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  /* margin: 10px 15px 0 0; */
+  background-color: #cb9a58;
+  padding: 25px 5px;
+}
+
+.alfa li {
+  font-family: 'Cinzel Decorative', cursive;
+  list-style-type: none;
+}
+
+.alfa a {
+  text-decoration-line: none;
+}
+
+.alfa :nth-child(5) {
+  margin-right: 20px;
+}
+/* .alfa ul li{ */
+/*   /* margin-top: 5px; */ */
+/*   list-style: none; */
+/*   margin: 0 10px; */
+/*   display: inline-block; */
+/*   text-decoration: none; */
+/*   text-transform: uppercase; */
+/* } */
+.links{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 45px;
+  margin-right: 300px;
+}
+svg{
+  width: 150px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+svg:hover{
+  border: 2px solid #000;
+  border-radius: 10px 10px ;
+}
